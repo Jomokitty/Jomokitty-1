@@ -1,13 +1,13 @@
-```
+
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Futon Match</title>
+  <title>Futo Match</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="header">
-    <h1>Futon Match</h1>
+    <h1>Futo Match</h1>
   </div>
   <div class="login-container">
     <h2>Login to Futon Match</h2>
@@ -26,11 +26,7 @@
   <script src="script.js"></script>
 </body>
 </html>
-```
 
-CSS (in style.css file):
-
-```
 body {
   font-family: Arial, sans-serif;
   background-color: #f7f7f7;
@@ -96,11 +92,7 @@ button:hover {
   margin-top: -40px;
 }
 ```
-
-JavaScript (in script.js file):
-
-```
-document.getElementById("login-btn").addEventListener("click", function(event) {
+ocument.getElementById("login-btn").addEventListener("click", function(event) {
   event.preventDefault();
   const username = document.getElementById("username").value;
   const password = document.getElementById("password").value;
