@@ -1,0 +1,13 @@
+
+#forgot-password, #register {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+``
